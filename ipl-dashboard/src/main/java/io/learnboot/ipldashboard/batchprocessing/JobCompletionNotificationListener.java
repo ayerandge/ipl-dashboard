@@ -13,7 +13,7 @@ public class JobCompletionNotificationListener implements JobExecutionListener{
 	
 	  private final JdbcTemplate jdbcTemplate;
 
-	  @Autowired
+	 
 	  public JobCompletionNotificationListener(JdbcTemplate jdbcTemplate) {
 	    this.jdbcTemplate = jdbcTemplate;
 	  }
