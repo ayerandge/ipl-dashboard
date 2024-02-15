@@ -60,6 +60,14 @@ public class Team {
 	public void setMatches(List<Match> matches) {
 		this.matches = matches;
 	}
+	
+	
+
+	public Team(String teamName, Long totalMatches) {
+		super();
+		this.teamName = teamName;
+		this.totalMatches = totalMatches;
+	}
 
 	@Override
 	public String toString() {
